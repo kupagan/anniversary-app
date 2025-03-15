@@ -1,0 +1,61 @@
+.welcome-message {
+  font-size: 3em;
+  color: pink;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.names {
+  font-size: 2em;
+  color: pink;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: -10px;
+}
+
+.prompt h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.destination-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.destination button {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.destination img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.destination p {
+  color: pink;
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.destination button:hover {
+  transform: scale(1.05);
+}
+
+.destination img:hover {
+  transform: scale(1.1);
+}
